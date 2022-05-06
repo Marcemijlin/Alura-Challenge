@@ -1,0 +1,287 @@
+* {
+    margin: 50;
+    padding: 0;
+    background-color: #E5E5E5;
+    font-family: "Inter" sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.cero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.uno {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.uno img {
+    height: 60%;
+    margin-left: 3vw;
+    max-width: 45px;
+    max-height: 45px;
+}
+
+.dos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dos textarea {
+    width: 90%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #0A3871;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    resize: none;
+}
+
+.dos textarea::placeholder {
+    color: #0A3871;
+}
+
+
+
+.tres {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.tres .botones {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tres .aclaracion {
+    width: 90%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #495057;
+    opacity: 0.5;
+    align-items: center;
+}
+
+.tres .aclaracion p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.tres .aclaracion img {
+    margin-left: 7px;
+}
+
+.tres button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'inter', sans-serif;
+    font-size: 17px;
+    width: 290px;
+    height: 55px;
+    border-radius: 28px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.tres .encriptar {
+    color: white;
+    background: #0A3871;
+    border: 1px solid #0A3871;
+}
+.encriptar:hover{
+    background-color: white;
+    color:blue;
+    transform: scale(1.2);
+}
+
+.tres .desencriptar {
+    color: #0A3871;
+    background: white;
+    border: 1px solid #0A3871;
+}
+.desencriptar:hover{
+    background-color: blue;
+    color: #E5E5E5;
+    transform: scale(1.2);
+}
+
+.cuatro {
+    margin-top: 30px;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.cuatro .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 85%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.cuatro .contenedor_escondido{
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 85%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    align-items: center;
+}
+
+.cuatro .contenedor img {
+    display: none;
+    max-width: 80%;
+    align-self: center;
+    background-color: transparent;
+}
+
+.cuatro .contenedor h3 {
+    font-weight: 400;
+    font-size: 28px;
+    background-color: transparent;
+    margin-bottom: 30px;
+    color: #343A40;
+}
+
+.cuatro .contenedor p {
+    font-weight: 200;
+    font-size: 20px;
+    background-color: transparent;
+    color: #343A40;
+}
+
+.cuatro .contenedor_escondido textarea {
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    background-color: transparent;
+    color: #0A3871;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    resize: none;
+}
+
+.cuatro button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'inter', sans-serif;
+    font-size: 17px;
+    width: 290px;
+    height: 55px;
+    border-radius: 28px;
+    color: #0A3871;
+    background: white;
+    border: 1px solid #0A3871;
+}
+
+.cinco {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+
+.cinco .redes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cinco .redes img{
+    width: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    opacity: 0.7;
+}
+
+.cinco .copy{
+    width: 100%;
+    color: #495057;
+    font-family: 'inter', sans-serif;
+    font-size: small;
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .cero {
+        width: 65%;
+        position: static;
+        float: left;
+        min-height: 95vh;
+    }
+
+    .tres .botones {
+        justify-content: space-around;
+    }
+
+    .cuatro {
+        width: 35%;
+        position: static;
+        float: right;
+        min-height: 95vh;
+    }
+
+    .cuatro .contenedor img {
+        display: block;
+    }
+
+    .cinco{
+        flex-direction: row;
+        align-items: end;
+        justify-content: center;
+    }
+
+    .cinco .copy{
+        width: 50%;
+    }
+}
