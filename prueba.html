@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="prueba.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <script src="./encriptar.js"></script>
+    <title>Encriptador de texto</title>
+</head>
+
+<body>
+    <div class="cero">
+        <div class="uno">
+            <img src="./Logo.png" alt="Logo Alura">
+        </div>
+        <div class="dos">
+            <textarea cols="30" rows="6" placeholder="ingrese el texto aqui" id="cadena"></textarea>
+        </div>
+        <div class="tres">
+            <div class="aclaracion">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button type="submit" class="encriptar" onclick="encriptar()">
+                    Encriptar
+                </button>
+                <button type="submit" class="desencriptar" onclick="desencriptar()">
+                    Desencriptar
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="cuatro">
+        <div class="contenedor" id="esconder">
+            <img src="./Muñeco.png" alt="Muñeco">
+            <h3>Ningún mensaje fue encontrado</h3>
+            <p>Ingrese el texto que desee encriptar o desencriptar</p>
+        </div>
+        <div class="contenedor_escondido" id="mostrar">
+            <textarea cols="15" rows="6" id="resultado"></textarea>
+            <button type="submit" class="copiar" onclick="copiar_texto()">
+                Copiar
+            </button>
+        </div>
+    </div>
+    <div class="cinco">
+        <div class="redes">
+            <a href="http://www.linkedin.com/in/marcelomijlin" target="blank"></a>
+        </div>
+        <div class="copy">&copy; 2022 Marcelo Mijlin</div>
+    </div>
+</body>
+
+</html>
